@@ -25,8 +25,8 @@ jobs:
       - name: download-hello-artifact
         uses: actions/download-artifact@v2
         with:
-          path: artifacts
+          path: ./artifacts
           name: hello-artifact 
 
       - name: read-artifact
-        run: ls artifacts
+        run: cat ./artifacts/hello.txt

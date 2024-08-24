@@ -22,7 +22,7 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - name: download artifcats
+      - name: hello-artifact
         uses: actions/download-artifact@v4.1.8
         with:
           path: ./artifacts

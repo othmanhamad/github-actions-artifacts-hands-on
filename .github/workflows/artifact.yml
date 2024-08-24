@@ -27,7 +27,6 @@ jobs:
         with:
           path: artifacts
           name: hello-artifact 
-      - name: extract
-        uses: actions/
+          
       - name: read-artifact
         run: ls artifacts
